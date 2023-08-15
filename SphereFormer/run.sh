@@ -1,1 +1,0 @@
-docker run --rm -it -v $DATASET_DIR:/dataset -v $SPHEREFORMER_DIR:/model/SphereFormer --runtime=nvidia ghcr.io/ua-lidar-segmentation-research/sphereformer

@@ -1,0 +1,1 @@
+./train.sh -d /dataset -a salsanext.yml -l /logs -c 0
