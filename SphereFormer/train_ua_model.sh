@@ -1,1 +1,1 @@
-python train.py --config config/semantic_kitti/semantic_kitti_unet32_spherical_transformer.yaml
+python train.py --config config/semantic_kitti/rellis_unet32_spherical_transformer.yaml

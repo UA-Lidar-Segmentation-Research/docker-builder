@@ -1,1 +1,1 @@
-python train_SemanticKitti.py
+python train_Rellis.py
