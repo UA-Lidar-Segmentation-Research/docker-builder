@@ -7,6 +7,4 @@ RUN pip install --no-cache-dir \
     numba==0.57.1 \
     numpy==1.21
 
-COPY train_ua_model.sh /model/Cylinder3D/
-
 WORKDIR /model/Cylinder3D

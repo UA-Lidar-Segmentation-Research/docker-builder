@@ -18,6 +18,4 @@ COPY third_party/SparseTransformer /tmp/
 WORKDIR /tmp
 RUN python setup.py install
 
-COPY train_ua_model.sh /model/Sphereformer/
-
 WORKDIR /model/SphereFormer/

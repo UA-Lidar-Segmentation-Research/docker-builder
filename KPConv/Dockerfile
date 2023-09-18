@@ -10,6 +10,4 @@ COPY cpp_wrappers /tmp/cpp_wrappers
 WORKDIR /tmp/cpp_wrappers
 RUN sh compile_wrappers.sh
 
-COPY train_ua_model.sh /model/KPConv-PyTorch/
-
 WORKDIR /model/KPConv-PyTorch

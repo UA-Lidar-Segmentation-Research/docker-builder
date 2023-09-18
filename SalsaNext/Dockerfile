@@ -12,6 +12,4 @@ RUN pip install --no-cache-dir \
     scipy==1.10.1  \
     tensorflow==2.13.0
 
-COPY train_ua_model.sh /model/SalsaNext/
-
 WORKDIR /model/SalsaNext/
