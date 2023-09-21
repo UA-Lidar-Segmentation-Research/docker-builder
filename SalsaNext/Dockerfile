@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.8.0-cuda11.1-cudnn8-devel
+FROM pytorch/pytorch:1.8.1-cuda11.1-cudnn8-devel
 
 RUN rm /etc/apt/sources.list.d/* && apt-get update && apt-get install -y \
     libgl1 \
